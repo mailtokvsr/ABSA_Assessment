@@ -1,0 +1,19 @@
+
+# API Configurations
+---
+url:
+  prod: https://dog.ceo
+  uat: https://uat-dog.ceo
+services: 
+  listOfBreeds: 
+    serviceUrl: /api/breeds/list/all
+    headers: 
+      content-type: application/json
+  subList: 
+    serviceUrl: /api/breed/%s/list
+    headers: 
+      content-type: application/json
+  subBreedRandomImage: 
+    serviceUrl: /api/breed/%s/%s/images/random
+    headers: 
+      content-type: application/json

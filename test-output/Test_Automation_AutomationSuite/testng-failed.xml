@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test_Automation_AutomationSuite]">
+  <test thread-count="5" name="Test_Automation_test(failed)">
+    <groups>
+      <run>
+        <include name="ui"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="org.venkat.test.Way2AutomationTest">
+        <methods>
+          <include name="tc002_addUserAndVerify"/>
+          <include name="tc001_addUserAndVerify"/>
+        </methods>
+      </class> <!-- org.venkat.test.Way2AutomationTest -->
+    </classes>
+  </test> <!-- Test_Automation_test(failed) -->
+</suite> <!-- Failed suite [Test_Automation_AutomationSuite] -->
